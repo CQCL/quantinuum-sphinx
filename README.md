@@ -1,9 +1,9 @@
-# Quantinuum Docs Sphinx Templates
+# Quantinuum Sphinx
 
-This theme is intended to customize [furo](https://pradyunsg.me/furo/).
+This repo contains templates and static assets that are intended to customize the theme [furo](https://pradyunsg.me/furo/).
 
 
-### Using the templates in your Sphinx docs code
+### Using the templates in your Sphinx configuration
 
 Add the following git URL as a submodule in the same directory as `conf.py`
 
@@ -40,3 +40,6 @@ const navConfig = {
     ],
 }
 ```
+
+Rebuild your docs and you should have a navbar:
+![Screenshot 2024-07-01 at 14 07 19](https://github.com/CQCL/quantinuum-sphinx/assets/104831665/1dfda0e7-accc-428c-bccd-b489913bf9aa)
