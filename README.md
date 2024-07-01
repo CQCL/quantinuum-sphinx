@@ -9,7 +9,6 @@ Add the following git URL as a submodule in the same directory as `conf.py`
 
 ```bash
 git submodule add -b dist https://github.com/CQCL/quantinuum-sphinx.git
-git pull --recurse-submodule # Pulls in files. Directory will be empty by default.
 ```
 
 In `conf.py` add:
