@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "quantinuum-docs-theme"
+version = "0.1.0"
+description = ""
+authors = ["aidanCQ <aidan.keay@quantinuum.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+furo = "^2024.5.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[project.entry-points]
+"sphinx.html_themes" = { quantinuum_sphinx = "." }

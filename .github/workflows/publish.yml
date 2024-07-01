@@ -1,0 +1,31 @@
+name: Publish theme to dist branch
+
+on:
+  push:
+    branches: ["main"]
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository.
+        uses: actions/checkout@v3
+      - name: Install deps.
+        run: | 
+            npm ci --frozen-lockfile
+      - name: Build UI assets.
+        run: ./build-ui.sh  
+      - name: Copy over relevant files
+        run: ./build-dist.sh
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          publish_branch: dist
