@@ -9,6 +9,7 @@ Add the following git URL as a submodule in the same directory as `conf.py`
 
 ```bash
 git submodule add git+https://github.com/aidanCQ/qui-sphinx.git@dist
+git pull --recurse-submodule # Pulls in files. Directory will be empty by default.
 ```
 
 In `conf.py` add:
@@ -23,19 +24,19 @@ Create a file `./_static/nav-config.js` containing:
 
 ```js
 const navConfig = {
- "navTextLinks": [
+    "navTextLinks": [
         {
             "title": string,
             "href": string,
         },
     ],
- "navProductName": string,
- "navIconLinks": [
-     {
-         "title": string,
-         "href": string,
-         "iconImageURL": string (i.e. "/_static/github.svg"),
-     },
- ],
+    "navProductName": string,
+    "navIconLinks": [
+        {
+            "title": string,
+            "href": string,
+            "iconImageURL": string (i.e. "/_static/github.svg"),
+        },
+    ],
 }
 ```
