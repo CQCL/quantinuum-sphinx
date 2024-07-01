@@ -8,7 +8,7 @@ This repo contains templates and static assets that are intended to customize th
 Add the following git URL as a submodule in the same directory as `conf.py`
 
 ```bash
-git submodule add git+https://github.com/CQCL/quantinuum-sphinx.git@dist
+git submodule add -b dist https://github.com/CQCL/quantinuum-sphinx.git
 git pull --recurse-submodule # Pulls in files. Directory will be empty by default.
 ```
 
