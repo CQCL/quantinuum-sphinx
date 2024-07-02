@@ -9,19 +9,21 @@ import {
   DropdownMenuTrigger,
   Skeleton,
   useTheme,
-  //@ts-ignore
 } from '@cqcl/quantinuum-ui'
 
 export const ModeSelector = () => {
   const [isMounted, setIsMounted] = React.useState(false)
   const theme = useTheme()
+  const {isDark} = theme.theme
   React.useEffect(() => {
     setIsMounted(true)
-  }, [])
+    // doc
+    document.body.setAttribute('data-theme',isDark ? 'dark' : 'light')
+  }, [isDark])
   if (!isMounted)
     return <Skeleton className="bg-muted h-6 w-6 rounded"></Skeleton>
   return (
-    <DropdownMenu>
+    <DropdownMenu modal={false}>
       <DropdownMenuTrigger asChild>
         <Button
           variant="outline"

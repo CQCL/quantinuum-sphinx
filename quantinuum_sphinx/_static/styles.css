@@ -14,3 +14,7 @@ html {
     margin-top: 0rem;
   }
 }
+
+.sidebar-search-container, .theme-toggle-container {
+  display: none;
+}

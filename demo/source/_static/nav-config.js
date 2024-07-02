@@ -18,22 +18,22 @@ const navConfig = {
         "href": "#",
     },
 ],
-"navProductName": "Sphinx Demo",
+"navProductName": "H-Series",
 "navIconLinks": [
     {
         "title": "Title 1",
         "href": "#",
-        "iconImageURL": "/_static/assets/github.svg",
+        "iconImageURL": "_static/assets/github.svg",
     },
     {
         "title": "Title 2",
         "href": "#",
-        "iconImageURL": "/_static/assets/slack.svg",
+        "iconImageURL": "_static/assets/slack.svg",
     },
     {
         "title": "Title 3",
         "href": "#",
-        "iconImageURL": "/_static/assets/stack.svg",
+        "iconImageURL": "_static/assets/stack.svg",
     },
 ],
 }
