@@ -19,4 +19,5 @@ dist
 quantinuum_sphinx/_static/index.global.js
 quantinuum_sphinx/_static/tailwind.css
 quantinuum_sphinx/_static/tokens.css
+quantinuum_sphinx/_static/syncTheme.global.js
 demo/build
