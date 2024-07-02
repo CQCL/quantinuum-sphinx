@@ -18,3 +18,7 @@ html {
 .sidebar-search-container, .theme-toggle-container {
   display: none;
 }
+
+.sidebar-brand {
+  display: none;
+}

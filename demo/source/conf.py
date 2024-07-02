@@ -6,7 +6,8 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'Quantinuum Sphinx Demo'
+# project = ''
+html_title = ''
 copyright = '2024, Quantinuum'
 author = 'aidan.keay@quantinuum.com'
 

@@ -1,6 +1,6 @@
 import { defineConfig } from 'tsup'
 
-export default defineConfig({
+export default defineConfig([{
   entry: ['ui/index.tsx'],
   outDir: './quantinuum_sphinx/_static/',
   minify: true,
@@ -8,4 +8,14 @@ export default defineConfig({
   target: "es2015",
   platform: "browser",
   format: ["iife"],
-})
+}, 
+{
+  entry: ['ui/syncTheme.tsx'],
+  outDir: './quantinuum_sphinx/_static/',
+  minify: true,
+  skipNodeModulesBundle: false,
+  target: "es2015",
+  platform: "browser",
+  format: ["iife"],
+}, 
+])

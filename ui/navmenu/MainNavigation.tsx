@@ -11,13 +11,14 @@ import { Input, Command,
   CommandList,
   CommandSeparator,
   CommandShortcut,
-  CommandDialog, } from '@cqcl/quantinuum-ui'
+  CommandDialog, theme } from '@cqcl/quantinuum-ui'
 import { Search } from 'lucide-react'
 import { ModeSelector } from './ModeSelector'
 export const MainNavigation = (props: {
   activePath: string
   linkComponent?: Link
 }) => {
+
   const urlSearch = new URLSearchParams(window.location.search).get('q') ?? ''
   const [search, setSearch] = React.useState(urlSearch)
   const Link = props.linkComponent

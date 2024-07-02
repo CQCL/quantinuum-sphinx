@@ -18,7 +18,7 @@ const navConfig = {
         "href": "#",
     },
 ],
-"navProductName": "H-Series",
+"navProductName": "Product Name",
 "navIconLinks": [
     {
         "title": "Title 1",
