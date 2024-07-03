@@ -11,49 +11,7 @@ Welcome to .'s documentation!
     :maxdepth: 2
 
     a.rst
-    a.rst
-    a.rst
-    a.rst
-    a.rst
-    a.rst
-    a.rst
-    a.rst
-    a.rst
-    a.rst
-    a.rst
-    a.rst
-    a.rst
-    a.rst
-    a.rst
-    a.rst
-    a.rst
-    a.rst
-    a.rst
-    a.rst
-    a.rst
-    a.rst
-    a.rst
-    a.rst
-    a.rst
-    a.rst
-    a.rst
-    a.rst
-    a.rst
-    a.rst
-    a.rst
-    a.rst
-    a.rst
-    a.rst
-    a.rst
-    a.rst
-    a.rst
-    a.rst
-    a.rst
-    a.rst
-    a.rst
-    a.rst
-    
-    
+    folder/b.rst
 
 
 Indices and tables
