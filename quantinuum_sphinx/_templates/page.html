@@ -34,9 +34,19 @@ as="style">
 </nav>
 <script type="text/javascript" src="{{ pathto('_static/nav-config.js', 1) }}" ></script>
 <script>
-  const navTextLinks = navConfig.navTextLinks;
+
+  const prefix = "{{ pathto('', 1) }}"
+  const navTextLinks = navConfig.navTextLinks.map(x => ({
+    ...x,
+    href: prefix + x.href,
+  }));
    const navProductName = navConfig.navProductName;
-  const navIconLinks = navConfig.navIconLinks;
+  const navIconLinks = navConfig.navIconLinks.map(x => ({
+    ...x,
+    href: prefix + x.href,
+    iconImageURL: prefix + x.iconImageURL,
+  }));;
+
 </script>
 <script type="text/javascript" src="{{ pathto('_static/index.global.js', 1) }}"></script>
 
