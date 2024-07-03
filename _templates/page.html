@@ -36,15 +36,31 @@ as="style">
 <script>
 
   const prefix = "{{ pathto('', 1) }}"
+  const isExternalURL = (string) => {
+    try {
+      return new URL(string).origin !== location.origin;
+    } catch (err) {
+      console.error(err)
+      return false;  
+    }
+  }
+
+  const resolveLink = (string) => {
+    if (isExternalURL(string)) return string
+    if (string.startsWith("/")) {
+      string = string.slice(1)
+    }
+    return prefix + string;
+  }
   const navTextLinks = navConfig.navTextLinks.map(x => ({
     ...x,
-    href: prefix + x.href,
+    href: resolveLink(x.href),
   }));
    const navProductName = navConfig.navProductName;
   const navIconLinks = navConfig.navIconLinks.map(x => ({
     ...x,
-    href: prefix + x.href,
-    iconImageURL: prefix + x.iconImageURL,
+    href: resolveLink(x.href),
+    iconImageURL: resolveLink(x.iconImageURL),
   }));
 
 </script>
