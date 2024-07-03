@@ -7,7 +7,7 @@ const navConfig = {
     },
     {
         "title": "Link 2",
-        "href": "#",
+        "href": "/a",
     },
     {
         "title": "Link 3",
@@ -22,18 +22,18 @@ const navConfig = {
 "navIconLinks": [
     {
         "title": "Title 1",
-        "href": "#",
-        "iconImageURL": "_static/assets/github.svg",
+        "href": "https://www.google.com",
+        "iconImageURL": "/_static/assets/github.svg",
     },
     {
         "title": "Title 2",
-        "href": "#",
-        "iconImageURL": "_static/assets/slack.svg",
+        "href": "b",
+        "iconImageURL": "/_static/assets/slack.svg",
     },
     {
         "title": "Title 3",
-        "href": "#",
-        "iconImageURL": "_static/assets/stack.svg",
+        "href": "https://www.github.com",
+        "iconImageURL": "/_static/assets/stack.svg",
     },
 ],
 }
