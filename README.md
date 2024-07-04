@@ -34,7 +34,7 @@ const navConfig = {
         {
             "title": string,
             "href": string,
-            "iconImageURL": string (i.e. "/_static/assets/github.svg"),
+            "iconImageURL": string (i.e. "_static/assets/github.svg"),
         },
     ],
 }
