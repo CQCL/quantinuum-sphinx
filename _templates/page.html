@@ -25,7 +25,7 @@ as="style">
 {% endblock %}
 
 {% block body -%}
-<script>0</script>
+<script>document.body.setAttribute("data-theme", "light")</script>
 {{ super() }}
 {% include "partials/icons.html" %}
 
@@ -306,6 +306,7 @@ as="style">
     </aside>
   </div>
 </div>
+<script>document.body.setAttribute("data-theme", "light")</script>
 {%- endblock %}
 
 
