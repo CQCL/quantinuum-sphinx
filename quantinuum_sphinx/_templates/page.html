@@ -235,6 +235,14 @@ as="style">
                 {%- endtrans %}
               {%- endif %}
             </div>
+            <div class="terms" style="display:flex; gap:0.5rem; align-items:center; margin: 0.25rem 0rem;">
+              <a href="https://www.quantinuum.com/privacy-statement" target="_blank">Privacy Statement</a>
+              <div role="separator">/</div>
+              <a href=" https://www.quantinuum.com/cookie-notice" target="_blank">Cookie Notice</a>
+              <div role="separator">/</div>
+              <a href="https://www.quantinuum.com/terms-conditions" target="_blank">Terms and Conditions</a>
+            </div>
+
             {%- endif %}
             {% trans %}Made with {% endtrans -%}
             {%- if show_sphinx -%}
@@ -244,6 +252,7 @@ as="style">
             {% trans %}
             <a href="https://github.com/pradyunsg/furo">Furo</a>
             {% endtrans %}
+           
             {%- if last_updated -%}
             <div class="last-updated">
               {% trans last_updated=last_updated|e -%}
