@@ -16,6 +16,7 @@ author = 'aidan.keay@quantinuum.com'
 html_theme = "furo"
 templates_path = ["../../quantinuum_sphinx/_templates"]
 html_static_path = ['../../quantinuum_sphinx/_static', '_static']
+html_favicon = '../../quantinuum_sphinx/_static/assets/quantinuum_favicon.svg'
 
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
