@@ -17,7 +17,7 @@ In `conf.py` add:
 html_theme = "furo"
 templates_path = ["quantinuum-sphinx/_templates"]
 html_static_path = ['quantinuum-sphinx/_static', '_static']
-html_favicon = 'quantinuum_sphinx/_static/assets/quantinuum_favicon.svg'
+html_favicon = 'quantinuum-sphinx/_static/assets/quantinuum_favicon.svg'
 ```
 
 Create a file `./_static/nav-config.js` containing: 
