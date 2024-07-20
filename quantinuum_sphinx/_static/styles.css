@@ -7,12 +7,16 @@ html {
   
 }
 
+.toc-drawer {
+  margin-top: 3.5rem;
+}
+
 
 @media (max-width: 67em) {
   .main {
     margin-top: 0rem;
   }
-  .page, .sidebar-drawer, .toc-drawer{
+  .page, .sidebar-drawer {
     margin-top: 3.5rem;
   }
 
