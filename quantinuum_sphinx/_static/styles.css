@@ -12,10 +12,7 @@ html {
   .main {
     margin-top: 0rem;
   }
-  .page {
-    margin-top: 3.5rem;
-  }
-  .sidebar-drawer {
+  .page, .sidebar-drawer, .toc-drawer{
     margin-top: 3.5rem;
   }
 }
