@@ -10,8 +10,13 @@ html {
 
 @media (max-width: 67em) {
   .main {
-
     margin-top: 0rem;
+  }
+  .page {
+    margin-top: 3.5rem;
+  }
+  .sidebar-drawer {
+    margin-top: 3.5rem;
   }
 }
 
@@ -22,3 +27,5 @@ html {
 h3 {
   margin-top: 1.75rem;
 }
+
+
