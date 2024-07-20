@@ -1034,6 +1034,10 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
   min-width: var(--radix-select-trigger-width);
 }
 
+.use-tailwind .max-w-\[90rem\] {
+  max-width: 90rem;
+}
+
 .use-tailwind .max-w-lg {
   max-width: 32rem;
 }
