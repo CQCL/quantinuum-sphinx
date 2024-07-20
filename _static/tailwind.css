@@ -921,6 +921,10 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
   height: 1px;
 }
 
+.use-tailwind .max-h-6 {
+  max-height: 1.5rem;
+}
+
 .use-tailwind .max-h-96 {
   max-height: 24rem;
 }
@@ -935,6 +939,10 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
 
 .use-tailwind .max-h-screen {
   max-height: 100vh;
+}
+
+.use-tailwind .min-h-6 {
+  min-height: 1.5rem;
 }
 
 .use-tailwind .min-h-9 {
@@ -1022,6 +1030,10 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
   width: 1px;
 }
 
+.use-tailwind .min-w-6 {
+  min-width: 1.5rem;
+}
+
 .use-tailwind .min-w-\[12rem\] {
   min-width: 12rem;
 }
@@ -1032,6 +1044,10 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
 
 .use-tailwind .min-w-\[var\(--radix-select-trigger-width\)\] {
   min-width: var(--radix-select-trigger-width);
+}
+
+.use-tailwind .max-w-6 {
+  max-width: 1.5rem;
 }
 
 .use-tailwind .max-w-\[90rem\] {
@@ -1053,6 +1069,10 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
 
 .use-tailwind .flex-1 {
   flex: 1 1 0%;
+}
+
+.use-tailwind .flex-shrink-0 {
+  flex-shrink: 0;
 }
 
 .use-tailwind .shrink-0 {
@@ -2796,6 +2816,10 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
     display: block;
   }
 
+  .use-tailwind .sm\:hidden {
+    display: none;
+  }
+
   .use-tailwind .sm\:max-w-sm {
     max-width: 24rem;
   }
@@ -2874,6 +2898,11 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
 
   .use-tailwind .md\:max-w-\[420px\] {
     max-width: 420px;
+  }
+
+  .use-tailwind .md\:px-4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 }
 
