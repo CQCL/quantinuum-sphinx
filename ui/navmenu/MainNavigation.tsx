@@ -13,11 +13,9 @@ export const MainNavigation = (props: {
     : (props: ComponentProps<'a'>) => <a {...props}></a>
   return (
     <div className="bg-background text-foreground border-border sticky top-0 z-[100] w-full border-b text-sm">
-      <div className=" bg-background px-3 md:px-4 mx-auto max-w-[90rem] flex h-14 items-center justify-between">
+      <div className=" bg-background px-3 md:px-4 mx-auto max-w-[90rem] flex h-14 items-center">
         <div className="mr-4 flex items-center">
-        <div className='block md:hidden mr-3'>
-            <MobileMenu></MobileMenu>
-            </div>
+       
           <div className="whitespace-nowrap flex items-center gap-2">
             <div className='hidden sm:block'><QuantinuumLogo></QuantinuumLogo>
             </div>
@@ -31,9 +29,13 @@ export const MainNavigation = (props: {
           <Link href="/" className="ml-4 mr-4 flex items-center space-x-2">
             <span className="hidden font-bold">Quantinuum</span>
           </Link>
-          <Navigation activePath={props.activePath} linkComponent={Link} />
+          
         </div>
 
+        <div className='ml-auto'>
+          <Navigation activePath={props.activePath} linkComponent={Link} />
+          </div>
+<div className='mr-6 ml-2 text-muted-foreground hidden md:block'>|</div>
         <div className="flex items-center">
           <div className="flex items-center gap-2">
             {navConfig.navIconLinks.map(link => {
@@ -48,6 +50,9 @@ export const MainNavigation = (props: {
           {/* <div className="mx-2 ml-4">
             <ModeSelector />
           </div> */}
+           <div className='block md:hidden ml-3'>
+            <MobileMenu></MobileMenu>
+            </div>
         </div>
       </div>
     </div>
