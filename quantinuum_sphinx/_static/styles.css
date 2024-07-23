@@ -2,25 +2,22 @@ html {
   display: unset;
 }
 
-.main {
-  margin-top: 3.5rem;
-  
+
+.toc-sticky {
+  position: fixed;
+  top: 3.5rem;
 }
-
-.toc-drawer {
+ .page { 
   margin-top: 3.5rem;
-}
+ }
 
-
-@media (max-width: 67em) {
-  .main {
-    margin-top: 0rem;
-  }
-  .page, .sidebar-drawer {
+ @media (max-width: 67em) {
+  .sidebar-drawer {
     margin-top: 3.5rem;
   }
 
 }
+
 
 .theme-toggle-container {
   display: none;
