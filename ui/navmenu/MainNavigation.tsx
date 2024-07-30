@@ -4,7 +4,15 @@ import { Link, navConfig } from './config'
 import { QuantinuumLogo } from './QuantinuumLogo'
 import { MobileMenu } from './MobileMenu'
 import { QuantinuumIdent } from './QuantinuumIdent'
-import { Button } from '@cqcl/quantinuum-ui'
+import { Button, 
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuLabel,
+  DropdownMenuSeparator,
+  DropdownMenuTrigger, } from '@cqcl/quantinuum-ui'
+import { ChevronDown } from 'lucide-react'
+
 export const MainNavigation = (props: {
   activePath: string
   linkComponent?: Link
@@ -31,24 +39,33 @@ export const MainNavigation = (props: {
             </div>
   
             </Link>
-       
-            <div className="text-muted-foreground text-xs font-medium flex items-center">
-              <div className='ml-1'>|</div>
             
-              <Button variant='ghost' size="sm" className='ml-0.5' asChild>
-              <Link href={navConfig.navProductPath}>
-             {navConfig.navProductName}
-             </Link>
-              </Button>
-            </div>
-    
+            <p className="text-foreground mt-[0.075rem] tracking-tight  uppercase text-[0.6rem] font-semibold flex items-center">
+             Docs         
+            </p>
+            <div className='ml-3 text-muted-foreground'>|</div>
           </div>
-          <Link href="/" className="ml-4 mr-4 flex items-center space-x-2">
+          <Link href="/" className="ml-0 mr-4 flex items-center space-x-2">
             <span className="hidden font-bold">Quantinuum</span>
           </Link>
+          <DropdownMenu >
+  <DropdownMenuTrigger asChild>
+  <Button variant='ghost' size="sm" >
+  {navConfig.navProductName} <ChevronDown className='w-4 h-4'></ChevronDown> </Button>
+
+  </DropdownMenuTrigger>
+  <DropdownMenuContent>
+    {/* <DropdownMenuLabel>My Account</DropdownMenuLabel>
+    <DropdownMenuSeparator /> */}
+    <DropdownMenuItem>TKET</DropdownMenuItem>
+    <DropdownMenuItem>Inquanto</DropdownMenuItem>
+    <DropdownMenuItem>H-Series</DropdownMenuItem>
+    <DropdownMenuItem>Lambeq</DropdownMenuItem>
+  </DropdownMenuContent>
+</DropdownMenu>
           <Navigation activePath={props.activePath} linkComponent={Link} />
         </div>
-
+       
         <div className="flex items-center">
           <div className="flex items-center gap-2">
             {navConfig.navIconLinks.map(link => {
