@@ -31,6 +31,7 @@ const navConfig = {
         },
     ],
     "navProductName": string,
+    "navProductPath": string, i.e. "/tket" or "/h-series".
     "navIconLinks": [
         {
             "title": string,
