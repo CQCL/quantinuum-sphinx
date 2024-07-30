@@ -10,13 +10,15 @@ const linkSchema = z.object({
 export const navConfigSchema = z.object({
     navTextLinks: z.array(linkSchema),
     navIconLinks: z.array(z.intersection(linkSchema, z.object({iconImageURL: z.string()}))),
-    navProductName: z.string()
+    navProductName: z.string(),
+    navProductPath: z.string(),
 })
 
 export const navConfig = navConfigSchema.parse({
     navTextLinks: typeof navTextLinks !== "undefined" ? navTextLinks : null,
     navIconLinks: typeof navIconLinks !== "undefined" ? navIconLinks : null,
-    navProductName: typeof navProductName !== "undefined" ? navProductName : null
+    navProductName: typeof navProductName !== "undefined" ? navProductName : null,
+    navProductPath: typeof navProductPath !== "undefined" ? navProductPath : null
 })
 
 export type ActivePaths = (typeof navConfig['navTextLinks'])[number]['href']
