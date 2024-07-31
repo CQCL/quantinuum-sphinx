@@ -19,7 +19,6 @@ const navConfig = {
     },
 ],
 "navProductName": "Product Name",
-"navProductPath": "/product-path",
 "navIconLinks": [
     {
         "title": "Title 1",

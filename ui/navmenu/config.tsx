@@ -11,7 +11,7 @@ export const navConfigSchema = z.object({
     navTextLinks: z.array(linkSchema),
     navIconLinks: z.array(z.intersection(linkSchema, z.object({iconImageURL: z.string()}))),
     navProductName: z.string(),
-    navProductPath: z.string(),
+    navProductPath: z.string()
 })
 
 export const navConfig = navConfigSchema.parse({
