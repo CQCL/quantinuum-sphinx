@@ -1,4 +1,5 @@
-
+import { products } from './MainNavigation'
+import { Link, navConfig } from './config'
 import {
   NavigationMenu,
   NavigationMenuItem,
@@ -6,8 +7,6 @@ import {
   NavigationMenuList,
   navigationMenuTriggerStyle,
 } from '@cqcl/quantinuum-ui'
-
-import { Link, navConfig } from './config'
 
 export const Navigation = (props: {
   activePath: string
@@ -19,7 +18,13 @@ export const Navigation = (props: {
   return (
     <NavigationMenu className="place-self-center sm:block">
       <NavigationMenuList className="hidden md:flex">
-        { navConfig.navTextLinks.map((item) => {
+        {[
+          {
+            title: 'Home',
+            href: `/${navConfig.navProductPath}`,
+          },
+          ...navConfig.navTextLinks,
+        ].map((item) => {
           return (
             <NavigationMenuItem key={item.title}>
               <NavigationMenuLink
