@@ -18,7 +18,7 @@ const navConfig = {
         "href": "#",
     },
 ],
-"navProductName": "Sphinx Demo",
+"navProductName": "Product Name",
 "navIconLinks": [
     {
         "title": "Title 1",
