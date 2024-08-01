@@ -743,14 +743,6 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
   margin-bottom: 0.25rem;
 }
 
-.use-tailwind .ml-0 {
-  margin-left: 0px;
-}
-
-.use-tailwind .ml-0\.5 {
-  margin-left: 0.125rem;
-}
-
 .use-tailwind .ml-1 {
   margin-left: 0.25rem;
 }
@@ -2137,10 +2129,6 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
 
 .use-tailwind .hover\:opacity-100:hover {
   opacity: 1;
-}
-
-.use-tailwind .hover\:opacity-60:hover {
-  opacity: 0.6;
 }
 
 .use-tailwind .hover\:opacity-70:hover {
