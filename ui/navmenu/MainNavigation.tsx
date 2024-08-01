@@ -4,7 +4,6 @@ import { Link, navConfig } from './config'
 import { QuantinuumLogo } from './QuantinuumLogo'
 import { MobileMenu } from './MobileMenu'
 import { QuantinuumIdent } from './QuantinuumIdent'
-import { Button } from '@cqcl/quantinuum-ui'
 export const MainNavigation = (props: {
   activePath: string
   linkComponent?: Link
@@ -20,28 +19,14 @@ export const MainNavigation = (props: {
             <MobileMenu></MobileMenu>
             </div>
           <div className="whitespace-nowrap flex items-center gap-2">
-            <Link href="/" className='hover:opacity-60 transition'>
-       
             <div className='hidden sm:block'><QuantinuumLogo></QuantinuumLogo>
             </div>
             <div className='block sm:hidden'>
-             
-            <QuantinuumIdent />
-          
+            <QuantinuumIdent/>
             </div>
-  
-            </Link>
-       
-            <div className="text-muted-foreground text-xs font-medium flex items-center">
-              <div className='ml-1'>|</div>
-            
-              <Button variant='ghost' size="sm" className='ml-0.5' asChild>
-              <Link href={navConfig.navProductPath}>
-             {navConfig.navProductName}
-             </Link>
-              </Button>
+            <div className="text-muted-foreground text-xs font-medium flex items-center gap-1.5">
+              <div>|</div><div>{navConfig.navProductName}</div>
             </div>
-    
           </div>
           <Link href="/" className="ml-4 mr-4 flex items-center space-x-2">
             <span className="hidden font-bold">Quantinuum</span>
