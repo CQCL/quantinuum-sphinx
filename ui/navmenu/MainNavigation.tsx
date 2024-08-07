@@ -19,7 +19,8 @@ export const MainNavigation = (props: {
             <MobileMenu></MobileMenu>
             </div>
           <div className="whitespace-nowrap flex items-center gap-2">
-          <a href="https://docs.quantinuum.com/" className='hover:cursor-pointer hover:opacity-50 transition'>
+          <a href="https://docs.quantinuum.com/" aria-label='Quantinuum Docs' title="Quantinuum Docs"   className='hover:cursor-pointer hover:opacity-50 transition'>
+          
             <div className='hidden sm:block'><QuantinuumLogo></QuantinuumLogo>
             </div>
             <div className='block sm:hidden'>
