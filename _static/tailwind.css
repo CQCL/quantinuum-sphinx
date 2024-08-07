@@ -2067,6 +2067,10 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
   z-index: 20;
 }
 
+.use-tailwind .hover\:cursor-pointer:hover {
+  cursor: pointer;
+}
+
 .use-tailwind .hover\:bg-accent:hover {
   background-color: hsl(var(--accent));
 }
@@ -2129,6 +2133,10 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
 
 .use-tailwind .hover\:opacity-100:hover {
   opacity: 1;
+}
+
+.use-tailwind .hover\:opacity-50:hover {
+  opacity: 0.5;
 }
 
 .use-tailwind .hover\:opacity-70:hover {
