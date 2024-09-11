@@ -1,8 +1,8 @@
 import { defineConfig } from 'tsup'
 
 export default defineConfig({
-  entry: ['ui/index.tsx'],
-  outDir: './quantinuum_sphinx/_static/',
+  entry: ['scripts/nav'],
+  outDir: 'out',
   minify: true,
   skipNodeModulesBundle: false,
   target: "es2015",

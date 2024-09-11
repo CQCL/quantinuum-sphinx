@@ -9,7 +9,6 @@ import {
   DropdownMenuTrigger,
   Skeleton,
   useTheme,
-  //@ts-ignore
 } from '@cqcl/quantinuum-ui'
 
 export const ModeSelector = () => {
@@ -21,7 +20,7 @@ export const ModeSelector = () => {
   if (!isMounted)
     return <Skeleton className="bg-muted h-6 w-6 rounded"></Skeleton>
   return (
-    <DropdownMenu>
+    <DropdownMenu modal={false}>
       <DropdownMenuTrigger asChild>
         <Button
           variant="outline"

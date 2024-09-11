@@ -5,8 +5,6 @@ import {
     DropdownMenu,
     DropdownMenuContent,
     DropdownMenuItem,
-    DropdownMenuLabel,
-    DropdownMenuSeparator,
     DropdownMenuTrigger,
   } from "@cqcl/quantinuum-ui"
 import { MenuIcon } from "lucide-react"

@@ -1,6 +1,6 @@
 import React from 'react'
 import {createRoot} from "react-dom/client" 
-import { MainNavigation } from "./navmenu/MainNavigation";
+import { MainNavigation } from "../../components/navmenu";
 
   (() => {
     const mountElement = document.querySelector('.nexus-nav')
@@ -9,9 +9,7 @@ import { MainNavigation } from "./navmenu/MainNavigation";
     mountElement.appendChild(renderIn)
   
     const root = createRoot(renderIn)
-    console.log('f1irst Render')
     root.render(
       <div className="use-tailwind">  <div className="antialiased" style={{fontFamily: `Inter, ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"`}}><MainNavigation activePath=""></MainNavigation> </div></div>
     )
   })()
-
