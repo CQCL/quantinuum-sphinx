@@ -22,19 +22,4 @@ export default defineConfig([
   platform: "browser",
   format: ["iife"],
   clean: true,
-},
-// Script for building shared ui assets
-{
-  entry: ['./src'],
-  outDir: 'ui',
-  minify: false,
-  skipNodeModulesBundle: true,
-  target: "esnext",
-  platform: "node",
-  format: ["esm"],
-  dts: {
-    entry: "./src/index.ts"
-  }, // Add this to generate the code below
-  clean: true,
-  
 }])
