@@ -1,12 +1,12 @@
+'use client'
 import { Navigation } from './NavigationMenu'
 import { ComponentProps } from 'react'
-import { Link, navConfig } from './config'
+import { Link } from './config'
 import { QuantinuumLogo } from './QuantinuumLogo'
 import { MobileMenu } from './MobileMenu'
 import { QuantinuumIdent } from './QuantinuumIdent'
 import { ModeSelector } from './ModeSelector'
 import { NavConfig } from './schema'
-
 
 export const NavBar = (props: {
   linkComponent?: Link
@@ -31,7 +31,7 @@ export const NavBar = (props: {
             </div>
             </a>
             <div className="text-muted-foreground text-xs font-medium flex items-center gap-1.5">
-              <div className='mx-0.5 text-muted-foreground/50'>|</div><div>{navConfig.navProductName}</div>
+              <div className='mx-0.5 text-muted-foreground/50'>|</div><div>{props.navProductName}</div>
             </div>
           </div>
           <Link href="/" className="ml-4 mr-4 flex items-center space-x-2">
@@ -40,9 +40,10 @@ export const NavBar = (props: {
        
         </div>
         <div className="flex items-center gap-5">
-        <Navigation activePath={props.activePath} linkComponent={Link} />
+          
+        <Navigation activePath={props.activePath} linkComponent={Link} navTextLinks={props.navTextLinks} />
           <div className="flex items-center gap-2">
-            {navConfig.navIconLinks.map(link => {
+            {props.navIconLinks.map(link => {
                 return <Link href={link.href} target='_blank' key={link.title}>
                <img src={link.iconImageURL} className='dark:invert flex-shrink-0 min-w-6 max-w-6 min-h-6 max-h-6 hover:opacity-70 transition'></img>
              </Link>

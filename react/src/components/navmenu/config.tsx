@@ -13,12 +13,8 @@ export const navConfigSchema = z.object({
     navProductName: z.string()
 })
 
-export const navConfig = navConfigSchema.parse({
-    navTextLinks: typeof navTextLinks !== "undefined" ? navTextLinks : null,
-    navIconLinks: typeof navIconLinks !== "undefined" ? navIconLinks : null,
-    navProductName: typeof navProductName !== "undefined" ? navProductName : null
-})
 
-export type ActivePaths = (typeof navConfig['navTextLinks'])[number]['href']
+
+export type ActivePaths = (z.infer<typeof navConfigSchema>['navTextLinks'])[number]['href']
 const defaultLink = (props: ComponentProps<'a'>) => <a {...props}></a>
 export type Link = typeof defaultLink

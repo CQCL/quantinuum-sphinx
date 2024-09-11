@@ -7,19 +7,20 @@ import {
   navigationMenuTriggerStyle,
 } from '@cqcl/quantinuum-ui'
 
-import { Link, navConfig } from './config'
+import { Link } from './config'
+import { NavConfig } from './schema'
 
 export const Navigation = (props: {
   activePath: string
   linkComponent: Link
-}) => {
+} & Pick<NavConfig, 'navTextLinks'>) => {
   const isActivePath = (activePath: string, path: string) => {
     return activePath.startsWith(path)
   }
   return (
     <NavigationMenu className="place-self-center sm:block">
       <NavigationMenuList className="hidden md:flex">
-        { navConfig.navTextLinks.map((item) => {
+        { props.navTextLinks.map((item) => {
           return (
             <NavigationMenuItem key={item.title}>
               <NavigationMenuLink
