@@ -14,7 +14,7 @@ export const Footer = (props: { logo: JSX.Element, subtitle: string, columns: {
           </a>
         </div>
         <p className="max-w-[24rem] text-xs leading-5">
-          ©{new Date().getFullYear()} Quantinuum Inc. All rights reserved.{' '}
+          Copyright © {new Date().getFullYear()} Quantinuum Inc. All rights reserved.{' '}
           <br /> {props.subtitle}
         </p>
         <div className='flex items-center gap-2 mt-2'>

@@ -1,5 +1,5 @@
 import { Navigation } from './NavigationMenu'
-import React, { ComponentProps } from 'react'
+import { ComponentProps } from 'react'
 import { Link, navConfig } from './config'
 import { QuantinuumLogo } from './QuantinuumLogo'
 import { MobileMenu } from './MobileMenu'
