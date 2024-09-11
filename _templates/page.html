@@ -223,17 +223,8 @@ as="style">
         </div>
         <div class="bottom-of-page">
           <div class="left-details">
-            {%- if show_copyright %}
             <div class="copyright">
-              {%- if hasdoc('copyright') %}
-                {% trans path=pathto('copyright'), copyright=copyright|e -%}
-                  <a href="{{ path }}">Copyright</a> &#169; {{ copyright }}
-                {%- endtrans %}
-              {%- else %}
-                {% trans copyright=copyright|e -%}
-                  Copyright &#169; {{ copyright }}
-                {%- endtrans %}
-              {%- endif %}
+              Copyright &#169; 2024 Quantinuum Ltd. All rights reserved.
             </div>
             <div class="terms" style="display:flex; gap:0.5rem; align-items:center; margin: 0.25rem 0rem;">
               <a href="https://www.quantinuum.com/privacy-statement" target="_blank">Privacy Statement</a>
@@ -242,8 +233,6 @@ as="style">
               <div role="separator">/</div>
               <a href="https://www.quantinuum.com/terms-conditions" target="_blank">Terms and Conditions</a>
             </div>
-
-            {%- endif %}
             {% trans %}Made with {% endtrans -%}
             {%- if show_sphinx -%}
             {% trans %}<a href="https://www.sphinx-doc.org/">Sphinx</a> and {% endtrans -%}
