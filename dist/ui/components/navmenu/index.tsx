@@ -5,11 +5,32 @@ import { QuantinuumLogo } from './QuantinuumLogo'
 import { MobileMenu } from './MobileMenu'
 import { QuantinuumIdent } from './QuantinuumIdent'
 import { ModeSelector } from './ModeSelector'
+import { NavConfig } from './schema'
+
+// export type NavItem = {
+//   title: string
+//   href: string
+//   target?: string
+//   pathMatch: string
+//   megamenu?: {
+//     title: string
+//     href: string
+//     description: string
+//   }[]
+// }
+
+// export type IconLink = {
+//   title: string
+//   href: string
+//   target?: string
+// }
+
+// export type ActivePaths = NavItem['href']
 
 export const NavBar = (props: {
-  activePath: string
   linkComponent?: Link
-}) => {
+  activePath: string
+} & NavConfig) => {
   const Link = props.linkComponent
     ? props.linkComponent
     : (props: ComponentProps<'a'>) => <a {...props}></a>
@@ -39,11 +60,6 @@ export const NavBar = (props: {
         </div>
         <div className="flex items-center gap-5">
         <Navigation activePath={props.activePath} linkComponent={Link} />
-
-      
-      
-      
-       
           <div className="flex items-center gap-2">
             {navConfig.navIconLinks.map(link => {
                 return <Link href={link.href} target='_blank' key={link.title}>
