@@ -9,6 +9,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="preload"
 as="style">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+
 <style>  
   .sidebar-sticky {
     top: calc(3.5rem - 0px);
@@ -25,10 +26,10 @@ as="style">
 {% endblock %}
 
 {% block body -%}
-<script>document.body.setAttribute("data-theme", "light")</script>
+
 {{ super() }}
 {% include "partials/icons.html" %}
-
+<script type="text/javascript" src="{{ pathto('_static/syncTheme.global.js', 1) }}" ></script>
 <nav style="position:fixed;top:0;z-index:1021;width:100%;">
     <div class="nexus-nav"></div>
 </nav>
@@ -44,7 +45,7 @@ as="style">
       return false;  
     }
   }
-  //
+  
 
   const resolveLink = (string) => {
     if (isExternalURL(string)) return string
@@ -315,7 +316,6 @@ as="style">
     </aside>
   </div>
 </div>
-<script>document.body.setAttribute("data-theme", "light")</script>
 {%- endblock %}
 
 

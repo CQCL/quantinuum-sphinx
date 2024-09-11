@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@cqcl/quantinuum-ui": "^1.15.1",
+    "@cqcl/quantinuum-ui": "^1.16.12-alpha.4",
     "lucide-react": "^0.395.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",

@@ -12,13 +12,11 @@ import {
 } from '@cqcl/quantinuum-ui'
 
 export const ModeSelector = () => {
-  const [isMounted, setIsMounted] = React.useState(false)
   const theme = useTheme()
-  React.useEffect(() => {
-    setIsMounted(true)
-  }, [])
-  if (!isMounted)
-    return <Skeleton className="bg-muted h-6 w-6 rounded"></Skeleton>
+  console.log(theme.theme.mode)
+  // React.useEffect(() => {
+
+  // }, [])
   return (
     <DropdownMenu modal={false}>
       <DropdownMenuTrigger asChild>

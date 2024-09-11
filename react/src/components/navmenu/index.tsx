@@ -40,7 +40,7 @@ export const MainNavigation = (props: {
           <div className="flex items-center gap-2">
             {navConfig.navIconLinks.map(link => {
                 return <Link href={link.href} target='_blank' key={link.title}>
-               <img src={link.iconImageURL} className='flex-shrink-0 min-w-6 max-w-6 min-h-6 max-h-6 hover:opacity-70 transition'></img>
+               <img src={link.iconImageURL} className='dark:invert flex-shrink-0 min-w-6 max-w-6 min-h-6 max-h-6 hover:opacity-70 transition'></img>
              </Link>
             })}
           </div>
