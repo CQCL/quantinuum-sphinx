@@ -2,7 +2,6 @@
 .nodeenv 
 .devcontainer
 node_modules
-dist
 
 **/target
 **/.idea/**
