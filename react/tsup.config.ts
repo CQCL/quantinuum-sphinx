@@ -2,7 +2,7 @@ import { defineConfig } from 'tsup'
 
 export default defineConfig({
   entry: ['scripts/nav'],
-  outDir: 'out',
+  outDir: 'build',
   minify: true,
   skipNodeModulesBundle: false,
   target: "es2015",
