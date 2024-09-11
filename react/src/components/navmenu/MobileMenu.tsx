@@ -8,13 +8,13 @@ import {
     DropdownMenuTrigger,
   } from "@cqcl/quantinuum-ui"
 import { MenuIcon } from "lucide-react"
-import { navConfig} from "./config"
+import { NavConfig  } from "./schema"
 
-  export const MobileMenu = () => {
+  export const MobileMenu = (props: Pick<NavConfig, 'navTextLinks'>) => {
     return <DropdownMenu>
     <DropdownMenuTrigger asChild><Button variant='outline' className="w-8 p-0 h-8"> <MenuIcon/></Button></DropdownMenuTrigger>
     <DropdownMenuContent>
-        {navConfig.navTextLinks.map(link => {
+        {props.navTextLinks.map(link => {
             return   <DropdownMenuItem asChild key={link.title}><a href={link.href}>{link.title}</a></DropdownMenuItem>
         })}
     </DropdownMenuContent>

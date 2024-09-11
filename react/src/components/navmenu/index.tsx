@@ -20,7 +20,7 @@ export const NavBar = (props: {
       <div className=" bg-background px-3 md:px-4 mx-auto max-w-[90rem] flex h-14 items-center justify-between">
         <div className="mr-4 flex items-center">
           <div className='block md:hidden mr-3'>
-            <MobileMenu/>
+            <MobileMenu {...props}/>
           </div>
           <div className="whitespace-nowrap flex items-center  gap-2">
           <a href="https://docs.quantinuum.com/" aria-label='Quantinuum Docs' title="Quantinuum Docs"   className='hover:cursor-pointer hover:opacity-50 transition'>
