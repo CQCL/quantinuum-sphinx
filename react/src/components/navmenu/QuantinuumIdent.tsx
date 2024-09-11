@@ -1,4 +1,4 @@
-export const QuantinuumIdent = (props: {}) => {
+export const QuantinuumIdent = () => {
     return (
       <svg
         version="1.1"

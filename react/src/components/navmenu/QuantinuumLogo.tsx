@@ -1,4 +1,4 @@
-export const QuantinuumLogo = (props: {}) => {
+export const QuantinuumLogo = () => {
   return (
     <svg
       version="1.1"

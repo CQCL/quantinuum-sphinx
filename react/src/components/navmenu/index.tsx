@@ -5,8 +5,8 @@ import { QuantinuumLogo } from './QuantinuumLogo'
 import { MobileMenu } from './MobileMenu'
 import { QuantinuumIdent } from './QuantinuumIdent'
 import { ModeSelector } from './ModeSelector'
-import { Separator } from '@cqcl/quantinuum-ui'
-export const MainNavigation = (props: {
+
+export const NavBar = (props: {
   activePath: string
   linkComponent?: Link
 }) => {
