@@ -1,7 +1,6 @@
 
 import {createRoot} from "react-dom/client" 
-import { NavBar } from "../../components/navmenu";
-import { navConfigSchema } from '../../components/navmenu/schema';
+import { NavBar } from "@cqcl/quantinuum-ui";
 
   (() => {
     const mountElement = document.querySelector('.nexus-nav')
@@ -11,11 +10,11 @@ import { navConfigSchema } from '../../components/navmenu/schema';
   
     const root = createRoot(renderIn)
 
-    const navConfig = navConfigSchema.parse({
-      navTextLinks: typeof navTextLinks !== "undefined" ? navTextLinks : null,
-      navIconLinks: typeof navIconLinks !== "undefined" ? navIconLinks : null,
-      navProductName: typeof navProductName !== "undefined" ? navProductName : null
-  })
+    const navConfig = {
+      navTextLinks,
+      navIconLinks,
+      navProductName,
+    }
     root.render(
       <div className="use-tailwind">  <div className="antialiased" style={{fontFamily: `Inter, ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"`}}><NavBar activePath="" {...navConfig}></NavBar> </div></div>
     )
