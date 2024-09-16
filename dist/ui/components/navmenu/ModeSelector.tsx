@@ -1,5 +1,4 @@
 
-import React from 'react'
 import { Check, MoonIcon, SunIcon } from 'lucide-react'
 import {
   Button,
@@ -7,16 +6,12 @@ import {
   DropdownMenuContent,
   DropdownMenuItem,
   DropdownMenuTrigger,
-  Skeleton,
+
   useTheme,
 } from '@cqcl/quantinuum-ui'
 
 export const ModeSelector = () => {
   const theme = useTheme()
-  console.log(theme.theme.mode)
-  // React.useEffect(() => {
-
-  // }, [])
   return (
     <DropdownMenu modal={false}>
       <DropdownMenuTrigger asChild>
