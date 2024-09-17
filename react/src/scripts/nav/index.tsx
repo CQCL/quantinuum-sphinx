@@ -1,6 +1,6 @@
 
 import {createRoot} from "react-dom/client" 
-import { NavBar } from "@cqcl/quantinuum-ui";
+import { DocsNavBar } from "@cqcl/quantinuum-ui";
 
   (() => {
     const mountElement = document.querySelector('.nexus-nav')
@@ -16,6 +16,6 @@ import { NavBar } from "@cqcl/quantinuum-ui";
       navProductName,
     }
     root.render(
-      <div className="use-tailwind">  <div className="antialiased" style={{fontFamily: `Inter, ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"`}}><NavBar activePath="" {...navConfig}></NavBar> </div></div>
+      <div className="use-tailwind">  <div className="antialiased" style={{fontFamily: `Inter, ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"`}}><DocsNavBar activePath="" {...navConfig}></DocsNavBar> </div></div>
     )
   })()
