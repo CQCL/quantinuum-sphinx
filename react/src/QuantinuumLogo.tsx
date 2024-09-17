@@ -1,4 +1,7 @@
-export const QuantinuumIdent = (props: {}) => {
+import { ComponentProps } from "react"
+import { cn } from "@cqcl/quantinuum-ui"
+
+export const QuantinuumLogo = (props: ComponentProps<'svg'>) => {
     return (
       <svg
         version="1.1"
@@ -7,12 +10,13 @@ export const QuantinuumIdent = (props: {}) => {
         xmlnsXlink="http://www.w3.org/1999/xlink"
         x="0px"
         y="0px"
-        viewBox="0 0 37.91 37.91"
+        viewBox="0 0 204.13 37.91"
         xmlSpace="preserve"
-        width={22}
-        height={22}
+        width={140}
+        height={50}
         fill="currentColor"
-        className="text-foreground"
+        {...props}
+         className={cn(`text-foreground`, props.className)}
       >
         <g>
           <g>
@@ -44,4 +48,3 @@ export const QuantinuumIdent = (props: {}) => {
       </svg>
     )
   }
-  
