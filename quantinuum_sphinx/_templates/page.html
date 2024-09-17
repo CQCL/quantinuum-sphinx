@@ -30,6 +30,8 @@ as="style">
 {{ super() }}
 {% include "partials/icons.html" %}
 <!-- <script type="text/javascript" src="{{ pathto('_static/syncTheme.global.js', 1) }}" ></script> -->
+ <!--Force light mode -->
+ <script>document.body.setAttribute('data-theme','light')</script>
 <nav style="position:fixed;top:0;z-index:1021;width:100%;">
     <div class="nexus-nav"></div>
 </nav>
@@ -68,14 +70,9 @@ as="style">
     href: resolveLink(x.href),
     iconImageURL: resolveLink(x.iconImageURL),
   }}
-  
   );
-
 </script>
 <script type="text/javascript" src="{{ pathto('_static/index.global.js', 1) }}"></script>
-
-
-
 <input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation">
 <input type="checkbox" class="sidebar-toggle" name="__toc" id="__toc">
 <label class="overlay sidebar-overlay" for="__navigation">
