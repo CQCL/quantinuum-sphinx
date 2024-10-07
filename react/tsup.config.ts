@@ -22,4 +22,15 @@ export default defineConfig([
   platform: "browser",
   format: ["iife"],
   clean: true,
-}])
+},
+{
+  entry: ['./src/injectFooter.tsx'],
+  outDir: 'build',
+  minify: true,
+  skipNodeModulesBundle: false,
+  target: "es2015",
+  platform: "browser",
+  format: ["iife"],
+  clean: true,
+}, 
+])
