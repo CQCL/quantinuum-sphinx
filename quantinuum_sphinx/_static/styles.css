@@ -27,6 +27,10 @@ h3 {
   margin-top: 1.75rem;
 }
 
+h2, h3, h4, h4, h5 {
+  padding-top: 1.75rem;
+  scroll-padding-top: 1.75rem;
+}
 
 .skip-to-content {
   display: none;
