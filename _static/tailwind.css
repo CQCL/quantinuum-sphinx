@@ -1,5 +1,113 @@
+.use-tailwind *, .use-tailwind ::before, .use-tailwind ::after {
+  --tw-border-spacing-x: 0;
+  --tw-border-spacing-y: 0;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-pan-x:  ;
+  --tw-pan-y:  ;
+  --tw-pinch-zoom:  ;
+  --tw-scroll-snap-strictness: proximity;
+  --tw-gradient-from-position:  ;
+  --tw-gradient-via-position:  ;
+  --tw-gradient-to-position:  ;
+  --tw-ordinal:  ;
+  --tw-slashed-zero:  ;
+  --tw-numeric-figure:  ;
+  --tw-numeric-spacing:  ;
+  --tw-numeric-fraction:  ;
+  --tw-ring-inset:  ;
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgb(59 130 246 / 0.5);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  --tw-blur:  ;
+  --tw-brightness:  ;
+  --tw-contrast:  ;
+  --tw-grayscale:  ;
+  --tw-hue-rotate:  ;
+  --tw-invert:  ;
+  --tw-saturate:  ;
+  --tw-sepia:  ;
+  --tw-drop-shadow:  ;
+  --tw-backdrop-blur:  ;
+  --tw-backdrop-brightness:  ;
+  --tw-backdrop-contrast:  ;
+  --tw-backdrop-grayscale:  ;
+  --tw-backdrop-hue-rotate:  ;
+  --tw-backdrop-invert:  ;
+  --tw-backdrop-opacity:  ;
+  --tw-backdrop-saturate:  ;
+  --tw-backdrop-sepia:  ;
+  --tw-contain-size:  ;
+  --tw-contain-layout:  ;
+  --tw-contain-paint:  ;
+  --tw-contain-style:  ;
+}
+
+.use-tailwind ::backdrop {
+  --tw-border-spacing-x: 0;
+  --tw-border-spacing-y: 0;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-pan-x:  ;
+  --tw-pan-y:  ;
+  --tw-pinch-zoom:  ;
+  --tw-scroll-snap-strictness: proximity;
+  --tw-gradient-from-position:  ;
+  --tw-gradient-via-position:  ;
+  --tw-gradient-to-position:  ;
+  --tw-ordinal:  ;
+  --tw-slashed-zero:  ;
+  --tw-numeric-figure:  ;
+  --tw-numeric-spacing:  ;
+  --tw-numeric-fraction:  ;
+  --tw-ring-inset:  ;
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgb(59 130 246 / 0.5);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  --tw-blur:  ;
+  --tw-brightness:  ;
+  --tw-contrast:  ;
+  --tw-grayscale:  ;
+  --tw-hue-rotate:  ;
+  --tw-invert:  ;
+  --tw-saturate:  ;
+  --tw-sepia:  ;
+  --tw-drop-shadow:  ;
+  --tw-backdrop-blur:  ;
+  --tw-backdrop-brightness:  ;
+  --tw-backdrop-contrast:  ;
+  --tw-backdrop-grayscale:  ;
+  --tw-backdrop-hue-rotate:  ;
+  --tw-backdrop-invert:  ;
+  --tw-backdrop-opacity:  ;
+  --tw-backdrop-saturate:  ;
+  --tw-backdrop-sepia:  ;
+  --tw-contain-size:  ;
+  --tw-contain-layout:  ;
+  --tw-contain-paint:  ;
+  --tw-contain-style:  ;
+}
+
 /*
-! tailwindcss v3.4.4 | MIT License | https://tailwindcss.com
+! tailwindcss v3.4.13 | MIT License | https://tailwindcss.com
 */
 
 /*
@@ -459,114 +567,6 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
   -moz-osx-font-smoothing: grayscale;
 }
 
-.use-tailwind *, .use-tailwind ::before, .use-tailwind ::after {
-  --tw-border-spacing-x: 0;
-  --tw-border-spacing-y: 0;
-  --tw-translate-x: 0;
-  --tw-translate-y: 0;
-  --tw-rotate: 0;
-  --tw-skew-x: 0;
-  --tw-skew-y: 0;
-  --tw-scale-x: 1;
-  --tw-scale-y: 1;
-  --tw-pan-x:  ;
-  --tw-pan-y:  ;
-  --tw-pinch-zoom:  ;
-  --tw-scroll-snap-strictness: proximity;
-  --tw-gradient-from-position:  ;
-  --tw-gradient-via-position:  ;
-  --tw-gradient-to-position:  ;
-  --tw-ordinal:  ;
-  --tw-slashed-zero:  ;
-  --tw-numeric-figure:  ;
-  --tw-numeric-spacing:  ;
-  --tw-numeric-fraction:  ;
-  --tw-ring-inset:  ;
-  --tw-ring-offset-width: 0px;
-  --tw-ring-offset-color: #fff;
-  --tw-ring-color: rgb(59 130 246 / 0.5);
-  --tw-ring-offset-shadow: 0 0 #0000;
-  --tw-ring-shadow: 0 0 #0000;
-  --tw-shadow: 0 0 #0000;
-  --tw-shadow-colored: 0 0 #0000;
-  --tw-blur:  ;
-  --tw-brightness:  ;
-  --tw-contrast:  ;
-  --tw-grayscale:  ;
-  --tw-hue-rotate:  ;
-  --tw-invert:  ;
-  --tw-saturate:  ;
-  --tw-sepia:  ;
-  --tw-drop-shadow:  ;
-  --tw-backdrop-blur:  ;
-  --tw-backdrop-brightness:  ;
-  --tw-backdrop-contrast:  ;
-  --tw-backdrop-grayscale:  ;
-  --tw-backdrop-hue-rotate:  ;
-  --tw-backdrop-invert:  ;
-  --tw-backdrop-opacity:  ;
-  --tw-backdrop-saturate:  ;
-  --tw-backdrop-sepia:  ;
-  --tw-contain-size:  ;
-  --tw-contain-layout:  ;
-  --tw-contain-paint:  ;
-  --tw-contain-style:  ;
-}
-
-.use-tailwind ::backdrop {
-  --tw-border-spacing-x: 0;
-  --tw-border-spacing-y: 0;
-  --tw-translate-x: 0;
-  --tw-translate-y: 0;
-  --tw-rotate: 0;
-  --tw-skew-x: 0;
-  --tw-skew-y: 0;
-  --tw-scale-x: 1;
-  --tw-scale-y: 1;
-  --tw-pan-x:  ;
-  --tw-pan-y:  ;
-  --tw-pinch-zoom:  ;
-  --tw-scroll-snap-strictness: proximity;
-  --tw-gradient-from-position:  ;
-  --tw-gradient-via-position:  ;
-  --tw-gradient-to-position:  ;
-  --tw-ordinal:  ;
-  --tw-slashed-zero:  ;
-  --tw-numeric-figure:  ;
-  --tw-numeric-spacing:  ;
-  --tw-numeric-fraction:  ;
-  --tw-ring-inset:  ;
-  --tw-ring-offset-width: 0px;
-  --tw-ring-offset-color: #fff;
-  --tw-ring-color: rgb(59 130 246 / 0.5);
-  --tw-ring-offset-shadow: 0 0 #0000;
-  --tw-ring-shadow: 0 0 #0000;
-  --tw-shadow: 0 0 #0000;
-  --tw-shadow-colored: 0 0 #0000;
-  --tw-blur:  ;
-  --tw-brightness:  ;
-  --tw-contrast:  ;
-  --tw-grayscale:  ;
-  --tw-hue-rotate:  ;
-  --tw-invert:  ;
-  --tw-saturate:  ;
-  --tw-sepia:  ;
-  --tw-drop-shadow:  ;
-  --tw-backdrop-blur:  ;
-  --tw-backdrop-brightness:  ;
-  --tw-backdrop-contrast:  ;
-  --tw-backdrop-grayscale:  ;
-  --tw-backdrop-hue-rotate:  ;
-  --tw-backdrop-invert:  ;
-  --tw-backdrop-opacity:  ;
-  --tw-backdrop-saturate:  ;
-  --tw-backdrop-sepia:  ;
-  --tw-contain-size:  ;
-  --tw-contain-layout:  ;
-  --tw-contain-paint:  ;
-  --tw-contain-style:  ;
-}
-
 .use-tailwind .container {
   width: 100%;
   margin-right: auto;
@@ -719,6 +719,10 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
   z-index: 1;
 }
 
+.use-tailwind .row-span-4 {
+  grid-row: span 4 / span 4;
+}
+
 .use-tailwind .-mx-1 {
   margin-left: -0.25rem;
   margin-right: -0.25rem;
@@ -727,11 +731,6 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
 .use-tailwind .-my-4 {
   margin-top: -1rem;
   margin-bottom: -1rem;
-}
-
-.use-tailwind .mx-0 {
-  margin-left: 0px;
-  margin-right: 0px;
 }
 
 .use-tailwind .mx-0\.5 {
@@ -769,12 +768,12 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
   margin-bottom: 1rem;
 }
 
-.use-tailwind .-mb-0 {
-  margin-bottom: -0px;
-}
-
 .use-tailwind .-mb-0\.5 {
   margin-bottom: -0.125rem;
+}
+
+.use-tailwind .-mt-1 {
+  margin-top: -0.25rem;
 }
 
 .use-tailwind .-mt-4 {
@@ -799,6 +798,10 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
 
 .use-tailwind .mb-24 {
   margin-bottom: 6rem;
+}
+
+.use-tailwind .mb-3 {
+  margin-bottom: 0.75rem;
 }
 
 .use-tailwind .mb-4 {
@@ -888,8 +891,23 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
   -webkit-line-clamp: 1;
 }
 
+.use-tailwind .line-clamp-2 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
 .use-tailwind .block {
   display: block;
+}
+
+.use-tailwind .inline-block {
+  display: inline-block;
+}
+
+.use-tailwind .inline {
+  display: inline;
 }
 
 .use-tailwind .flex {
@@ -914,10 +932,6 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
 
 .use-tailwind .aspect-square {
   aspect-ratio: 1 / 1;
-}
-
-.use-tailwind .h-1 {
-  height: 0.25rem;
 }
 
 .use-tailwind .h-1\.5 {
@@ -1004,10 +1018,6 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
   height: 1px;
 }
 
-.use-tailwind .max-h-6 {
-  max-height: 1.5rem;
-}
-
 .use-tailwind .max-h-96 {
   max-height: 24rem;
 }
@@ -1022,10 +1032,6 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
 
 .use-tailwind .max-h-screen {
   max-height: 100vh;
-}
-
-.use-tailwind .min-h-6 {
-  min-height: 1.5rem;
 }
 
 .use-tailwind .min-h-9 {
@@ -1060,12 +1066,28 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
   width: 75%;
 }
 
+.use-tailwind .w-32 {
+  width: 8rem;
+}
+
 .use-tailwind .w-4 {
   width: 1rem;
 }
 
+.use-tailwind .w-48 {
+  width: 12rem;
+}
+
 .use-tailwind .w-5 {
   width: 1.25rem;
+}
+
+.use-tailwind .w-56 {
+  width: 14rem;
+}
+
+.use-tailwind .w-6 {
+  width: 1.5rem;
 }
 
 .use-tailwind .w-64 {
@@ -1113,10 +1135,6 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
   width: 1px;
 }
 
-.use-tailwind .min-w-6 {
-  min-width: 1.5rem;
-}
-
 .use-tailwind .min-w-\[12rem\] {
   min-width: 12rem;
 }
@@ -1127,10 +1145,6 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
 
 .use-tailwind .min-w-\[var\(--radix-select-trigger-width\)\] {
   min-width: var(--radix-select-trigger-width);
-}
-
-.use-tailwind .max-w-6 {
-  max-width: 1.5rem;
 }
 
 .use-tailwind .max-w-\[24rem\] {
@@ -1156,10 +1170,6 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
 
 .use-tailwind .flex-1 {
   flex: 1 1 0%;
-}
-
-.use-tailwind .flex-shrink-0 {
-  flex-shrink: 0;
 }
 
 .use-tailwind .shrink-0 {
@@ -1321,6 +1331,10 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
   align-items: stretch;
 }
 
+.use-tailwind .justify-end {
+  justify-content: flex-end;
+}
+
 .use-tailwind .justify-center {
   justify-content: center;
 }
@@ -1349,12 +1363,20 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
   gap: 6rem;
 }
 
+.use-tailwind .gap-3 {
+  gap: 0.75rem;
+}
+
 .use-tailwind .gap-4 {
   gap: 1rem;
 }
 
 .use-tailwind .gap-5 {
   gap: 1.25rem;
+}
+
+.use-tailwind .gap-8 {
+  gap: 2rem;
 }
 
 .use-tailwind .space-x-1 > :not([hidden]) ~ :not([hidden]) {
@@ -1648,14 +1670,28 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
   background-color: transparent;
 }
 
+.use-tailwind .bg-gradient-to-b {
+  background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
+}
+
 .use-tailwind .bg-gradient-to-r {
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
+}
+
+.use-tailwind .from-muted\/50 {
+  --tw-gradient-from: hsl(var(--muted) / 0.5) var(--tw-gradient-from-position);
+  --tw-gradient-to: hsl(var(--muted) / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
 .use-tailwind .from-zinc-600 {
   --tw-gradient-from: #52525b var(--tw-gradient-from-position);
   --tw-gradient-to: rgb(82 82 91 / 0) var(--tw-gradient-to-position);
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.use-tailwind .to-muted {
+  --tw-gradient-to: hsl(var(--muted)) var(--tw-gradient-to-position);
 }
 
 .use-tailwind .to-slate-600 {
@@ -1884,6 +1920,10 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
   font-size: 1.4rem;
 }
 
+.use-tailwind .text-\[1rem\] {
+  font-size: 1rem;
+}
+
 .use-tailwind .text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem;
@@ -1929,6 +1969,14 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
 
 .use-tailwind .leading-none {
   line-height: 1;
+}
+
+.use-tailwind .leading-snug {
+  line-height: 1.375;
+}
+
+.use-tailwind .leading-tight {
+  line-height: 1.25;
 }
 
 .use-tailwind .tracking-tight {
@@ -2015,6 +2063,10 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
 
 .use-tailwind .underline {
   text-decoration-line: underline;
+}
+
+.use-tailwind .no-underline {
+  text-decoration-line: none;
 }
 
 .use-tailwind .underline-offset-4 {
@@ -2119,7 +2171,7 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
 .use-tailwind .backdrop-blur-sm {
   --tw-backdrop-blur: blur(4px);
   -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
-          backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
+  backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
 }
 
 .use-tailwind .transition {
@@ -2394,10 +2446,6 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
   opacity: 0.5;
 }
 
-.use-tailwind .hover\:opacity-70:hover {
-  opacity: 0.7;
-}
-
 .use-tailwind .hover\:opacity-75:hover {
   opacity: 0.75;
 }
@@ -2420,6 +2468,12 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
 
 .use-tailwind .focus\:opacity-100:focus {
   opacity: 1;
+}
+
+.use-tailwind .focus\:shadow-md:focus {
+  --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
 .use-tailwind .focus\:outline-none:focus {
@@ -2613,7 +2667,7 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
   opacity: 0.3;
 }
 
-.use-tailwind .data-\[disabled\=true\]\:pointer-events-none[data-disabled=true] {
+.use-tailwind .data-\[disabled\=true\]\:pointer-events-none[data-disabled="true"] {
   pointer-events: none;
 }
 
@@ -2621,55 +2675,55 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
   pointer-events: none;
 }
 
-.use-tailwind .data-\[panel-group-direction\=vertical\]\:h-px[data-panel-group-direction=vertical] {
+.use-tailwind .data-\[panel-group-direction\=vertical\]\:h-px[data-panel-group-direction="vertical"] {
   height: 1px;
 }
 
-.use-tailwind .data-\[panel-group-direction\=vertical\]\:w-full[data-panel-group-direction=vertical] {
+.use-tailwind .data-\[panel-group-direction\=vertical\]\:w-full[data-panel-group-direction="vertical"] {
   width: 100%;
 }
 
-.use-tailwind .data-\[side\=bottom\]\:translate-y-1[data-side=bottom] {
+.use-tailwind .data-\[side\=bottom\]\:translate-y-1[data-side="bottom"] {
   --tw-translate-y: 0.25rem;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
-.use-tailwind .data-\[side\=left\]\:-translate-x-1[data-side=left] {
+.use-tailwind .data-\[side\=left\]\:-translate-x-1[data-side="left"] {
   --tw-translate-x: -0.25rem;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
-.use-tailwind .data-\[side\=right\]\:translate-x-1[data-side=right] {
+.use-tailwind .data-\[side\=right\]\:translate-x-1[data-side="right"] {
   --tw-translate-x: 0.25rem;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
-.use-tailwind .data-\[side\=top\]\:-translate-y-1[data-side=top] {
+.use-tailwind .data-\[side\=top\]\:-translate-y-1[data-side="top"] {
   --tw-translate-y: -0.25rem;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
-.use-tailwind .data-\[state\=checked\]\:translate-x-4[data-state=checked] {
+.use-tailwind .data-\[state\=checked\]\:translate-x-4[data-state="checked"] {
   --tw-translate-x: 1rem;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
-.use-tailwind .data-\[state\=unchecked\]\:translate-x-0[data-state=unchecked] {
+.use-tailwind .data-\[state\=unchecked\]\:translate-x-0[data-state="unchecked"] {
   --tw-translate-x: 0px;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
-.use-tailwind .data-\[swipe\=cancel\]\:translate-x-0[data-swipe=cancel] {
+.use-tailwind .data-\[swipe\=cancel\]\:translate-x-0[data-swipe="cancel"] {
   --tw-translate-x: 0px;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
-.use-tailwind .data-\[swipe\=end\]\:translate-x-\[var\(--radix-toast-swipe-end-x\)\][data-swipe=end] {
+.use-tailwind .data-\[swipe\=end\]\:translate-x-\[var\(--radix-toast-swipe-end-x\)\][data-swipe="end"] {
   --tw-translate-x: var(--radix-toast-swipe-end-x);
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
-.use-tailwind .data-\[swipe\=move\]\:translate-x-\[var\(--radix-toast-swipe-move-x\)\][data-swipe=move] {
+.use-tailwind .data-\[swipe\=move\]\:translate-x-\[var\(--radix-toast-swipe-move-x\)\][data-swipe="move"] {
   --tw-translate-x: var(--radix-toast-swipe-move-x);
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
@@ -2684,7 +2738,7 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
   }
 }
 
-.use-tailwind .data-\[state\=closed\]\:animate-accordion-up[data-state=closed] {
+.use-tailwind .data-\[state\=closed\]\:animate-accordion-up[data-state="closed"] {
   animation: accordion-up 0.2s ease-out;
 }
 
@@ -2698,11 +2752,11 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
   }
 }
 
-.use-tailwind .data-\[state\=open\]\:animate-accordion-down[data-state=open] {
+.use-tailwind .data-\[state\=open\]\:animate-accordion-down[data-state="open"] {
   animation: accordion-down 0.2s ease-out;
 }
 
-.use-tailwind .data-\[panel-group-direction\=vertical\]\:flex-col[data-panel-group-direction=vertical] {
+.use-tailwind .data-\[panel-group-direction\=vertical\]\:flex-col[data-panel-group-direction="vertical"] {
   flex-direction: column;
 }
 
@@ -2710,59 +2764,59 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
   background-color: hsl(var(--accent) / 0.5);
 }
 
-.use-tailwind .data-\[state\=active\]\:bg-background[data-state=active] {
+.use-tailwind .data-\[state\=active\]\:bg-background[data-state="active"] {
   background-color: hsl(var(--background));
 }
 
-.use-tailwind .data-\[state\=checked\]\:bg-primary[data-state=checked] {
+.use-tailwind .data-\[state\=checked\]\:bg-primary[data-state="checked"] {
   background-color: hsl(var(--primary));
 }
 
-.use-tailwind .data-\[state\=on\]\:bg-accent[data-state=on] {
+.use-tailwind .data-\[state\=on\]\:bg-accent[data-state="on"] {
   background-color: hsl(var(--accent));
 }
 
-.use-tailwind .data-\[state\=open\]\:bg-accent[data-state=open] {
+.use-tailwind .data-\[state\=open\]\:bg-accent[data-state="open"] {
   background-color: hsl(var(--accent));
 }
 
-.use-tailwind .data-\[state\=open\]\:bg-accent\/50[data-state=open] {
+.use-tailwind .data-\[state\=open\]\:bg-accent\/50[data-state="open"] {
   background-color: hsl(var(--accent) / 0.5);
 }
 
-.use-tailwind .data-\[state\=open\]\:bg-secondary[data-state=open] {
+.use-tailwind .data-\[state\=open\]\:bg-secondary[data-state="open"] {
   background-color: hsl(var(--secondary));
 }
 
-.use-tailwind .data-\[state\=selected\]\:bg-muted[data-state=selected] {
+.use-tailwind .data-\[state\=selected\]\:bg-muted[data-state="selected"] {
   background-color: hsl(var(--muted));
 }
 
-.use-tailwind .data-\[state\=unchecked\]\:bg-input[data-state=unchecked] {
+.use-tailwind .data-\[state\=unchecked\]\:bg-input[data-state="unchecked"] {
   background-color: hsl(var(--input));
 }
 
-.use-tailwind .data-\[state\=active\]\:text-foreground[data-state=active] {
+.use-tailwind .data-\[state\=active\]\:text-foreground[data-state="active"] {
   color: hsl(var(--foreground));
 }
 
-.use-tailwind .data-\[state\=checked\]\:text-primary-foreground[data-state=checked] {
+.use-tailwind .data-\[state\=checked\]\:text-primary-foreground[data-state="checked"] {
   color: hsl(var(--primary-foreground));
 }
 
-.use-tailwind .data-\[state\=on\]\:text-accent-foreground[data-state=on] {
+.use-tailwind .data-\[state\=on\]\:text-accent-foreground[data-state="on"] {
   color: hsl(var(--accent-foreground));
 }
 
-.use-tailwind .data-\[state\=open\]\:text-accent-foreground[data-state=open] {
+.use-tailwind .data-\[state\=open\]\:text-accent-foreground[data-state="open"] {
   color: hsl(var(--accent-foreground));
 }
 
-.use-tailwind .data-\[state\=open\]\:text-muted-foreground[data-state=open] {
+.use-tailwind .data-\[state\=open\]\:text-muted-foreground[data-state="open"] {
   color: hsl(var(--muted-foreground));
 }
 
-.use-tailwind .data-\[disabled\=true\]\:opacity-50[data-disabled=true] {
+.use-tailwind .data-\[disabled\=true\]\:opacity-50[data-disabled="true"] {
   opacity: 0.5;
 }
 
@@ -2770,25 +2824,25 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
   opacity: 0.5;
 }
 
-.use-tailwind .data-\[state\=active\]\:shadow[data-state=active] {
+.use-tailwind .data-\[state\=active\]\:shadow[data-state="active"] {
   --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
-.use-tailwind .data-\[swipe\=move\]\:transition-none[data-swipe=move] {
+.use-tailwind .data-\[swipe\=move\]\:transition-none[data-swipe="move"] {
   transition-property: none;
 }
 
-.use-tailwind .data-\[state\=closed\]\:duration-300[data-state=closed] {
+.use-tailwind .data-\[state\=closed\]\:duration-300[data-state="closed"] {
   transition-duration: 300ms;
 }
 
-.use-tailwind .data-\[state\=open\]\:duration-500[data-state=open] {
+.use-tailwind .data-\[state\=open\]\:duration-500[data-state="open"] {
   transition-duration: 500ms;
 }
 
-.use-tailwind .data-\[motion\^\=from-\]\:animate-in[data-motion^=from-] {
+.use-tailwind .data-\[motion\^\=from-\]\:animate-in[data-motion^="from-"] {
   animation-name: enter;
   animation-duration: 150ms;
   --tw-enter-opacity: initial;
@@ -2798,7 +2852,7 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
   --tw-enter-translate-y: initial;
 }
 
-.use-tailwind .data-\[state\=open\]\:animate-in[data-state=open] {
+.use-tailwind .data-\[state\=open\]\:animate-in[data-state="open"] {
   animation-name: enter;
   animation-duration: 150ms;
   --tw-enter-opacity: initial;
@@ -2808,7 +2862,7 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
   --tw-enter-translate-y: initial;
 }
 
-.use-tailwind .data-\[state\=visible\]\:animate-in[data-state=visible] {
+.use-tailwind .data-\[state\=visible\]\:animate-in[data-state="visible"] {
   animation-name: enter;
   animation-duration: 150ms;
   --tw-enter-opacity: initial;
@@ -2818,7 +2872,7 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
   --tw-enter-translate-y: initial;
 }
 
-.use-tailwind .data-\[motion\^\=to-\]\:animate-out[data-motion^=to-] {
+.use-tailwind .data-\[motion\^\=to-\]\:animate-out[data-motion^="to-"] {
   animation-name: exit;
   animation-duration: 150ms;
   --tw-exit-opacity: initial;
@@ -2828,7 +2882,7 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
   --tw-exit-translate-y: initial;
 }
 
-.use-tailwind .data-\[state\=closed\]\:animate-out[data-state=closed] {
+.use-tailwind .data-\[state\=closed\]\:animate-out[data-state="closed"] {
   animation-name: exit;
   animation-duration: 150ms;
   --tw-exit-opacity: initial;
@@ -2838,7 +2892,7 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
   --tw-exit-translate-y: initial;
 }
 
-.use-tailwind .data-\[state\=hidden\]\:animate-out[data-state=hidden] {
+.use-tailwind .data-\[state\=hidden\]\:animate-out[data-state="hidden"] {
   animation-name: exit;
   animation-duration: 150ms;
   --tw-exit-opacity: initial;
@@ -2848,7 +2902,7 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
   --tw-exit-translate-y: initial;
 }
 
-.use-tailwind .data-\[swipe\=end\]\:animate-out[data-swipe=end] {
+.use-tailwind .data-\[swipe\=end\]\:animate-out[data-swipe="end"] {
   animation-name: exit;
   animation-duration: 150ms;
   --tw-exit-opacity: initial;
@@ -2858,175 +2912,175 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
   --tw-exit-translate-y: initial;
 }
 
-.use-tailwind .data-\[motion\^\=from-\]\:fade-in[data-motion^=from-] {
+.use-tailwind .data-\[motion\^\=from-\]\:fade-in[data-motion^="from-"] {
   --tw-enter-opacity: 0;
 }
 
-.use-tailwind .data-\[motion\^\=to-\]\:fade-out[data-motion^=to-] {
+.use-tailwind .data-\[motion\^\=to-\]\:fade-out[data-motion^="to-"] {
   --tw-exit-opacity: 0;
 }
 
-.use-tailwind .data-\[state\=closed\]\:fade-out-0[data-state=closed] {
+.use-tailwind .data-\[state\=closed\]\:fade-out-0[data-state="closed"] {
   --tw-exit-opacity: 0;
 }
 
-.use-tailwind .data-\[state\=closed\]\:fade-out-80[data-state=closed] {
+.use-tailwind .data-\[state\=closed\]\:fade-out-80[data-state="closed"] {
   --tw-exit-opacity: 0.8;
 }
 
-.use-tailwind .data-\[state\=hidden\]\:fade-out[data-state=hidden] {
+.use-tailwind .data-\[state\=hidden\]\:fade-out[data-state="hidden"] {
   --tw-exit-opacity: 0;
 }
 
-.use-tailwind .data-\[state\=open\]\:fade-in-0[data-state=open] {
+.use-tailwind .data-\[state\=open\]\:fade-in-0[data-state="open"] {
   --tw-enter-opacity: 0;
 }
 
-.use-tailwind .data-\[state\=visible\]\:fade-in[data-state=visible] {
+.use-tailwind .data-\[state\=visible\]\:fade-in[data-state="visible"] {
   --tw-enter-opacity: 0;
 }
 
-.use-tailwind .data-\[state\=closed\]\:zoom-out-95[data-state=closed] {
+.use-tailwind .data-\[state\=closed\]\:zoom-out-95[data-state="closed"] {
   --tw-exit-scale: .95;
 }
 
-.use-tailwind .data-\[state\=open\]\:zoom-in-90[data-state=open] {
+.use-tailwind .data-\[state\=open\]\:zoom-in-90[data-state="open"] {
   --tw-enter-scale: .9;
 }
 
-.use-tailwind .data-\[state\=open\]\:zoom-in-95[data-state=open] {
+.use-tailwind .data-\[state\=open\]\:zoom-in-95[data-state="open"] {
   --tw-enter-scale: .95;
 }
 
-.use-tailwind .data-\[motion\=from-end\]\:slide-in-from-right-52[data-motion=from-end] {
+.use-tailwind .data-\[motion\=from-end\]\:slide-in-from-right-52[data-motion="from-end"] {
   --tw-enter-translate-x: 13rem;
 }
 
-.use-tailwind .data-\[motion\=from-start\]\:slide-in-from-left-52[data-motion=from-start] {
+.use-tailwind .data-\[motion\=from-start\]\:slide-in-from-left-52[data-motion="from-start"] {
   --tw-enter-translate-x: -13rem;
 }
 
-.use-tailwind .data-\[motion\=to-end\]\:slide-out-to-right-52[data-motion=to-end] {
+.use-tailwind .data-\[motion\=to-end\]\:slide-out-to-right-52[data-motion="to-end"] {
   --tw-exit-translate-x: 13rem;
 }
 
-.use-tailwind .data-\[motion\=to-start\]\:slide-out-to-left-52[data-motion=to-start] {
+.use-tailwind .data-\[motion\=to-start\]\:slide-out-to-left-52[data-motion="to-start"] {
   --tw-exit-translate-x: -13rem;
 }
 
-.use-tailwind .data-\[side\=bottom\]\:slide-in-from-top-2[data-side=bottom] {
+.use-tailwind .data-\[side\=bottom\]\:slide-in-from-top-2[data-side="bottom"] {
   --tw-enter-translate-y: -0.5rem;
 }
 
-.use-tailwind .data-\[side\=left\]\:slide-in-from-right-2[data-side=left] {
+.use-tailwind .data-\[side\=left\]\:slide-in-from-right-2[data-side="left"] {
   --tw-enter-translate-x: 0.5rem;
 }
 
-.use-tailwind .data-\[side\=right\]\:slide-in-from-left-2[data-side=right] {
+.use-tailwind .data-\[side\=right\]\:slide-in-from-left-2[data-side="right"] {
   --tw-enter-translate-x: -0.5rem;
 }
 
-.use-tailwind .data-\[side\=top\]\:slide-in-from-bottom-2[data-side=top] {
+.use-tailwind .data-\[side\=top\]\:slide-in-from-bottom-2[data-side="top"] {
   --tw-enter-translate-y: 0.5rem;
 }
 
-.use-tailwind .data-\[state\=closed\]\:slide-out-to-bottom[data-state=closed] {
+.use-tailwind .data-\[state\=closed\]\:slide-out-to-bottom[data-state="closed"] {
   --tw-exit-translate-y: 100%;
 }
 
-.use-tailwind .data-\[state\=closed\]\:slide-out-to-left[data-state=closed] {
+.use-tailwind .data-\[state\=closed\]\:slide-out-to-left[data-state="closed"] {
   --tw-exit-translate-x: -100%;
 }
 
-.use-tailwind .data-\[state\=closed\]\:slide-out-to-left-1\/2[data-state=closed] {
+.use-tailwind .data-\[state\=closed\]\:slide-out-to-left-1\/2[data-state="closed"] {
   --tw-exit-translate-x: -50%;
 }
 
-.use-tailwind .data-\[state\=closed\]\:slide-out-to-right[data-state=closed] {
+.use-tailwind .data-\[state\=closed\]\:slide-out-to-right[data-state="closed"] {
   --tw-exit-translate-x: 100%;
 }
 
-.use-tailwind .data-\[state\=closed\]\:slide-out-to-right-full[data-state=closed] {
+.use-tailwind .data-\[state\=closed\]\:slide-out-to-right-full[data-state="closed"] {
   --tw-exit-translate-x: 100%;
 }
 
-.use-tailwind .data-\[state\=closed\]\:slide-out-to-top[data-state=closed] {
+.use-tailwind .data-\[state\=closed\]\:slide-out-to-top[data-state="closed"] {
   --tw-exit-translate-y: -100%;
 }
 
-.use-tailwind .data-\[state\=closed\]\:slide-out-to-top-\[48\%\][data-state=closed] {
+.use-tailwind .data-\[state\=closed\]\:slide-out-to-top-\[48\%\][data-state="closed"] {
   --tw-exit-translate-y: -48%;
 }
 
-.use-tailwind .data-\[state\=open\]\:slide-in-from-bottom[data-state=open] {
+.use-tailwind .data-\[state\=open\]\:slide-in-from-bottom[data-state="open"] {
   --tw-enter-translate-y: 100%;
 }
 
-.use-tailwind .data-\[state\=open\]\:slide-in-from-left[data-state=open] {
+.use-tailwind .data-\[state\=open\]\:slide-in-from-left[data-state="open"] {
   --tw-enter-translate-x: -100%;
 }
 
-.use-tailwind .data-\[state\=open\]\:slide-in-from-left-1\/2[data-state=open] {
+.use-tailwind .data-\[state\=open\]\:slide-in-from-left-1\/2[data-state="open"] {
   --tw-enter-translate-x: -50%;
 }
 
-.use-tailwind .data-\[state\=open\]\:slide-in-from-right[data-state=open] {
+.use-tailwind .data-\[state\=open\]\:slide-in-from-right[data-state="open"] {
   --tw-enter-translate-x: 100%;
 }
 
-.use-tailwind .data-\[state\=open\]\:slide-in-from-top[data-state=open] {
+.use-tailwind .data-\[state\=open\]\:slide-in-from-top[data-state="open"] {
   --tw-enter-translate-y: -100%;
 }
 
-.use-tailwind .data-\[state\=open\]\:slide-in-from-top-\[48\%\][data-state=open] {
+.use-tailwind .data-\[state\=open\]\:slide-in-from-top-\[48\%\][data-state="open"] {
   --tw-enter-translate-y: -48%;
 }
 
-.use-tailwind .data-\[state\=open\]\:slide-in-from-top-full[data-state=open] {
+.use-tailwind .data-\[state\=open\]\:slide-in-from-top-full[data-state="open"] {
   --tw-enter-translate-y: -100%;
 }
 
-.use-tailwind .data-\[state\=closed\]\:duration-300[data-state=closed] {
+.use-tailwind .data-\[state\=closed\]\:duration-300[data-state="closed"] {
   animation-duration: 300ms;
 }
 
-.use-tailwind .data-\[state\=open\]\:duration-500[data-state=open] {
+.use-tailwind .data-\[state\=open\]\:duration-500[data-state="open"] {
   animation-duration: 500ms;
 }
 
-.use-tailwind .data-\[panel-group-direction\=vertical\]\:after\:left-0[data-panel-group-direction=vertical]::after {
+.use-tailwind .data-\[panel-group-direction\=vertical\]\:after\:left-0[data-panel-group-direction="vertical"]::after {
   content: var(--tw-content);
   left: 0px;
 }
 
-.use-tailwind .data-\[panel-group-direction\=vertical\]\:after\:h-1[data-panel-group-direction=vertical]::after {
+.use-tailwind .data-\[panel-group-direction\=vertical\]\:after\:h-1[data-panel-group-direction="vertical"]::after {
   content: var(--tw-content);
   height: 0.25rem;
 }
 
-.use-tailwind .data-\[panel-group-direction\=vertical\]\:after\:w-full[data-panel-group-direction=vertical]::after {
+.use-tailwind .data-\[panel-group-direction\=vertical\]\:after\:w-full[data-panel-group-direction="vertical"]::after {
   content: var(--tw-content);
   width: 100%;
 }
 
-.use-tailwind .data-\[panel-group-direction\=vertical\]\:after\:-translate-y-1\/2[data-panel-group-direction=vertical]::after {
+.use-tailwind .data-\[panel-group-direction\=vertical\]\:after\:-translate-y-1\/2[data-panel-group-direction="vertical"]::after {
   content: var(--tw-content);
   --tw-translate-y: -50%;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
-.use-tailwind .data-\[panel-group-direction\=vertical\]\:after\:translate-x-0[data-panel-group-direction=vertical]::after {
+.use-tailwind .data-\[panel-group-direction\=vertical\]\:after\:translate-x-0[data-panel-group-direction="vertical"]::after {
   content: var(--tw-content);
   --tw-translate-x: 0px;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
-.use-tailwind .data-\[state\=inactive\]\:hover\:brightness-50:hover[data-state=inactive] {
+.use-tailwind .data-\[state\=inactive\]\:hover\:brightness-50:hover[data-state="inactive"] {
   --tw-brightness: brightness(.5);
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
-.use-tailwind .group[data-state=open] .group-data-\[state\=open\]\:rotate-180 {
+.use-tailwind .group[data-state="open"] .group-data-\[state\=open\]\:rotate-180 {
   --tw-rotate: 180deg;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
@@ -3095,7 +3149,7 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
-.use-tailwind .data-\[state\=inactive\]\:dark\:hover\:brightness-150:hover:is([data-theme="dark"] *)[data-state=inactive] {
+.use-tailwind .data-\[state\=inactive\]\:dark\:hover\:brightness-150:hover:is([data-theme="dark"] *)[data-state="inactive"] {
   --tw-brightness: brightness(1.5);
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
@@ -3141,10 +3195,6 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
     justify-content: flex-end;
   }
 
-  .use-tailwind .sm\:gap-2 {
-    gap: 0.5rem;
-  }
-
   .use-tailwind .sm\:gap-2\.5 {
     gap: 0.625rem;
   }
@@ -3175,7 +3225,7 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
     text-align: left;
   }
 
-  .use-tailwind .data-\[state\=open\]\:sm\:slide-in-from-bottom-full[data-state=open] {
+  .use-tailwind .data-\[state\=open\]\:sm\:slide-in-from-bottom-full[data-state="open"] {
     --tw-enter-translate-y: 100%;
   }
 }
@@ -3183,10 +3233,6 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
 @media (min-width: 768px) {
   .use-tailwind .md\:absolute {
     position: absolute;
-  }
-
-  .use-tailwind .md\:mb-0 {
-    margin-bottom: 0px;
   }
 
   .use-tailwind .md\:mt-6 {
@@ -3205,6 +3251,10 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
     height: 14rem;
   }
 
+  .use-tailwind .md\:w-\[400px\] {
+    width: 400px;
+  }
+
   .use-tailwind .md\:w-\[var\(--radix-navigation-menu-viewport-width\)\] {
     width: var(--radix-navigation-menu-viewport-width);
   }
@@ -3215,6 +3265,10 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
 
   .use-tailwind .md\:max-w-\[420px\] {
     max-width: 420px;
+  }
+
+  .use-tailwind .md\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .use-tailwind .md\:grid-cols-3 {
@@ -3273,12 +3327,28 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
 }
 
 @media (min-width: 1024px) {
+  .use-tailwind .lg\:mb-0 {
+    margin-bottom: 0px;
+  }
+
   .use-tailwind .lg\:flex {
     display: flex;
   }
 
+  .use-tailwind .lg\:w-\[500px\] {
+    width: 500px;
+  }
+
+  .use-tailwind .lg\:grid-cols-\[\.75fr_1fr\] {
+    grid-template-columns: .75fr 1fr;
+  }
+
   .use-tailwind .lg\:flex-row {
     flex-direction: row;
+  }
+
+  .use-tailwind .lg\:text-right {
+    text-align: right;
   }
 }
 
@@ -3355,6 +3425,11 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
 
 .use-tailwind .\[\&\>svg\]\:top-4>svg {
   top: 1rem;
+}
+
+.use-tailwind .\[\&\>svg\]\:size-3>svg {
+  width: 0.75rem;
+  height: 0.75rem;
 }
 
 .use-tailwind .\[\&\>svg\]\:size-3\.5>svg {
