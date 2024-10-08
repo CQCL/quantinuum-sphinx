@@ -12,6 +12,6 @@ import { ComponentProps } from "react";
     const root = createRoot(renderIn)
 
     root.render(
-      <div className="use-tailwind">  <div className="antialiased" style={{fontFamily: `Inter, ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"`}}><DocsNavBar activePath="/" linkComponent={(props: ComponentProps<NextLink>) => <a {...props}></a>} ></DocsNavBar> </div></div>
+      <div className="use-tailwind">  <div className="antialiased" style={{fontFamily: `Inter, ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"`}}><DocsNavBar activePath="/" ></DocsNavBar> </div></div>
     )
   })()
