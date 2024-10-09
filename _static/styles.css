@@ -32,3 +32,6 @@ h3 {
   display: none;
 }
 
+.toc-scroll {
+  max-height: 95vh;
+}
