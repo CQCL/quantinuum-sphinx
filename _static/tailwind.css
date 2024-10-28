@@ -1019,6 +1019,10 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
   max-height: 300px;
 }
 
+.use-tailwind .max-h-\[80vh\] {
+  max-height: 80vh;
+}
+
 .use-tailwind .max-h-\[unset\] {
   max-height: unset;
 }
@@ -2341,6 +2345,10 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
   content: var(--tw-content);
   --tw-translate-x: -50%;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.use-tailwind .last\:mb-4:last-child {
+  margin-bottom: 1rem;
 }
 
 .use-tailwind .focus-within\:relative:focus-within {
