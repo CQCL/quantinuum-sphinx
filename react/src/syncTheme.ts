@@ -1,4 +1,4 @@
-import { getTheme, subscribeToTheme } from '@cqcl/quantinuum-ui'
+import { getTheme, subscribeToTheme } from '@quantinuum/quantinuum-ui'
 (() =>  {
     document.body.setAttribute("data-theme",  getTheme().isDark ? "dark" : 'light') 
     subscribeToTheme(({isDark}) => {
