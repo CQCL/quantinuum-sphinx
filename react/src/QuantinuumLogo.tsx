@@ -1,5 +1,5 @@
 import { ComponentProps } from "react"
-import { cn } from "@cqcl/quantinuum-ui"
+import { cn } from "@quantinuum/quantinuum-ui"
 
 export const QuantinuumLogo = (props: ComponentProps<'svg'>) => {
     return (
