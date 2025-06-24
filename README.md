@@ -7,16 +7,12 @@ This repo contains templates and static assets that are intended to customize th
 
 Add the following git URL as a submodule in the same directory as `conf.py`
 
-```bash
-git submodule add -b dist https://github.com/CQCL/quantinuum-sphinx.git
-```
 
 In `conf.py` add:
 
 ```python
-html_theme = "furo"
-templates_path = ["quantinuum-sphinx/_templates"]
-html_static_path = ['quantinuum-sphinx/_static', '_static']
+extensions ['quantinuum_sphinx']
+html_theme = 'quantinuum_sphinx'
 html_favicon = 'quantinuum-sphinx/_static/assets/quantinuum_favicon.svg'
 ```
 

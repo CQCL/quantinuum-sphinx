@@ -13,12 +13,12 @@ author = 'aidan.keay@quantinuum.com'
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-html_theme = "furo"
-templates_path = ["../../dist/_templates"]
-html_static_path = ['../../dist/_static', '_static']
-html_favicon = '../../dist/_static/assets/quantinuum_favicon.svg'
+extensions = ['quantinuum_sphinx']
+templates_path = ['_templates']
 
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
-html_theme = 'furo'
+html_theme = 'quantinuum_sphinx'
+html_static_path = ['_static']
+html_favicon = 'quantinuum-sphinx/_static/assets/quantinuum_favicon.svg'

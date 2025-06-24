@@ -1,9 +1,6 @@
 {% extends "furo/base.html" %}
 
 {% block extrahead %}
-<link rel="stylesheet" href="{{ pathto('_static/tokens.css', 1) }}"/>
-<link rel="stylesheet" href="{{ pathto('_static/styles.css', 1) }}"/>
-<link rel="stylesheet" href="{{ pathto('_static/tailwind.css', 1) }}"/>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="preload"
@@ -29,13 +26,11 @@ as="style">
 
 {{ super() }}
 {% include "partials/icons.html" %}
-<!-- <script type="text/javascript" src="{{ pathto('_static/syncTheme.global.js', 1) }}" ></script> -->
  <!--Force light mode -->
  <script>document.body.setAttribute('data-theme','light')</script>
 <nav style="position:fixed;top:0;z-index:1021;width:100%;">
     <div class="nexus-nav"></div>
 </nav>
-<script type="text/javascript" src="{{ pathto('_static/injectNav.global.js', 1) }}"></script>
 <input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation">
 <input type="checkbox" class="sidebar-toggle" name="__toc" id="__toc">
 <label class="overlay sidebar-overlay" for="__navigation">
