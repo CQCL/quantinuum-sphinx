@@ -13,7 +13,7 @@ In `conf.py` add:
 ```python
 extensions ['quantinuum_sphinx']
 html_theme = 'quantinuum_sphinx'
-html_favicon = 'quantinuum-sphinx/_static/assets/quantinuum_favicon.svg'
+html_favicon = '<path to your favicon file>'
 ```
 
 Create a file `./_static/nav-config.js` containing: 
