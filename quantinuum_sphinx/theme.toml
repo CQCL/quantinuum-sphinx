@@ -1,0 +1,9 @@
+[theme]
+inherit = "furo"
+
+stylesheets = [
+  "styles/furo.css",
+  "styles/quantinuum-ui-tokens.css",
+  "styles/quantinuum-ui-tailwind.css",
+  "styles/quantinuum-sphinx.css",
+]
