@@ -7,7 +7,7 @@
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = 'Quantinuum Sphinx Demo'
-copyright = '2024, Quantinuum'
+copyright = '2025, Quantinuum'
 author = 'aidan.keay@quantinuum.com'
 
 # -- General configuration ---------------------------------------------------
