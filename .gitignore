@@ -14,6 +14,7 @@ node_modules
 .env
 .venv
 **/*.ipynb
+**/*.pyc
 
 quantinuum_sphinx/_static/index.global.js
 quantinuum_sphinx/_static/tailwind.css
