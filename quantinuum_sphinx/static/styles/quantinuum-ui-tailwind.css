@@ -1110,10 +1110,6 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
   width: 75%;
 }
 
-.use-tailwind .w-32 {
-  width: 8rem;
-}
-
 .use-tailwind .w-4 {
   width: 1rem;
 }
@@ -3074,6 +3070,10 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
   color: hsl(var(--sidebar-accent-foreground));
 }
 
+.use-tailwind .data-\[placeholder\]\:text-muted-foreground[data-placeholder] {
+  color: hsl(var(--muted-foreground));
+}
+
 .use-tailwind .data-\[selected\=true\]\:text-accent-foreground[data-selected="true"] {
   color: hsl(var(--accent-foreground));
 }
@@ -3788,6 +3788,10 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
 @media (min-width: 1024px) {
   .use-tailwind .lg\:mb-0 {
     margin-bottom: 0px;
+  }
+
+  .use-tailwind .lg\:block {
+    display: block;
   }
 
   .use-tailwind .lg\:flex {
