@@ -1,6 +1,6 @@
 [project]
-name = "quantinuum-sphinx"
-version = "0.1.0"
+name = "quantinuum_sphinx"
+version = "0.2.0"
 description = ""
 authors = [
   { name = "Aidan Keay", email = "aidan.keay@quantinuum.com" },
